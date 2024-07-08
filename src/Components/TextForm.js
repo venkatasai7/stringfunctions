@@ -56,11 +56,11 @@ export default function TextForm(props) {
             <h2>{props.heading}</h2>
             <textarea className="form-control"  value={text} onChange={HandleOnChange} id="MyBox" rows="6"></textarea>
         </div>
-        <button className="btn btn-primary mx-3" onClick ={HandleUpperCaseClick}> Convert to Uppercase</button>
-        <button className="btn btn-primary mx-3" onClick ={HandleLowerCaseClick}> Convert to Lowercase</button>
+        <button className="btn btn-primary mx-3 my-2" onClick ={HandleUpperCaseClick}> Convert to Uppercase</button>
+        <button className="btn btn-primary mx-3 my-2" onClick ={HandleLowerCaseClick}> Convert to Lowercase</button>
 
-        <button className="btn btn-primary mx-3" onClick ={CopyToClipBoard}> Copy Text</button>
-        <button className="btn btn-primary mx-3" onClick ={OnClear}> Clear</button>
+        <button className="btn btn-primary mx-3 my-2" onClick ={CopyToClipBoard}> Copy Text</button>
+        <button className="btn btn-primary mx-3 my-2" onClick ={OnClear}> Clear</button>
     </div>
     <div className="container my-2">
         <h2>Your Text Summary</h2>
